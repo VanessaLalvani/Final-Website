@@ -22,28 +22,26 @@
 
 
 .menu {
-    /* display:flex; */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
-    gap:30px; 
-    width: 1260px;
-
-    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap:20px;
+  
 }
 
 .menu a {
-    font-family: MODENINE;
-    color: rgb(191, 191, 191);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 200;
-    padding: 5px 5;
-    margin: 20px 100px;
-    position: relative;
-    left: 154px;
-    /* word-spacing: 10px; */
-  
+  font-family: MODENINE;
+  color: rgb(191, 191, 191);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 5px 5;
+  margin: 20px 100px;
+  position: relative;
+  left: 100px;
+ 
 }
+
+
 
 .menu a:hover {
     color: rgb(110, 1, 1);
