@@ -68,6 +68,41 @@
 
 }
 
+.container .info {
+    color: white;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)); 
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 18pt;
+    padding: 30 250;
+
+}
+
+.container .info2 {
+    color: white;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)); 
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 18pt;
+    padding: 30 210;
+
+}
+
+.cit1 {
+    text-decoration: underline;
+    color: rgb(177, 177, 177);
+}
+
+
+.art {
+    text-decoration: underline;
+    color: rgb(119, 0, 0);
+}
+
+
+
 .container .subheading-1 {
     color: white;
     grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)); 
